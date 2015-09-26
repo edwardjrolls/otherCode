@@ -1,5 +1,5 @@
 import random
-pairsSet=set(["JJW","Jowita","Leila","Anna","Lucy Cross","Eleanor","Lucy Harris","Nina","Dani","Aidan","Eddie","Nicole"])
+pairsSet=set(["Lucy Roberts","JJW","Jowita","Leila","Anna","Lucy Cross","Eleanor","Lucy Harris","Nina","Dani","Aidan","Eddie","Nicole"])
 pairs=[]
 while len(pairsSet)>1:
 	newPair = random.sample(pairsSet,2)
