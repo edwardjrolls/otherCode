@@ -1,4 +1,7 @@
 import random
+
+random.seed(81) #Leah's favourite number
+
 pairsSet=set(["Leah","Lucy Roberts","JJW","Jowita","Leila","Anna","Lucy Cross","Eleanor","Lucy Harris","Nina","Dani","Aidan","Eddie","Nicole"])
 pairs=[]
 while len(pairsSet)>1:
